@@ -1,0 +1,178 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.10.20 18:57:21 =~=~=~=~=~=~=~=~=~=~=~=
+login as: azurechenx6
+Authenticating with public key "imported-openssh-key"
+Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ id
+uid=1000(azurechenx6) gid=1000(azurechenx6) groups=1000(azurechenx6),4(adm),190(systemd-journal) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ [K[azurechenx6@AzureLinux01 ~]$ shutdown
+Failed to set wall message, ignoring: Interactive authentication required.
+Failed to call ScheduleShutdown in logind, proceeding with immediate shutdown: Interactive authentication required.
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ shutdown ry[K[K[K -y
+shutdown: invalid option -- 'y'
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ shutdown -f[KF
+Failed to set wall message, ignoring: Interactive authentication required.
+Failed to call ScheduleShutdown in logind, proceeding with immediate shutdown: Interactive authentication required.
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ shutdown -F[Khelp
+shutdown: invalid option -- 'e'
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ shutdown -help[K[K[K[Kh
+Failed to set wall message, ignoring: Interactive authentication required.
+Failed to call ScheduleShutdown in logind, proceeding with immediate shutdown: Interactive authentication required.
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ shutdown -h[K[K
+Failed to set wall message, ignoring: Interactive authentication required.
+Failed to call ScheduleShutdown in logind, proceeding with immediate shutdown: Interactive authentication required.
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ systemctl
+[?1h=[0;4mUNIT                                                                                                       LOAD   ACTIVE SUB       DESCRIPTION              [0m[m
+[0;4mproc-sys-fs-binfmt_misc.automount                                                                          loaded active waiting   Arbitrary Executable File[m[7m>[27m
+dev-disk-by\x2dlabel-Temporary\x5cx20Storage.device                                                        loaded active plugged   dev-disk-by\x2dlabel-Temp[m[7m>[27m
+dev-disk-by\x2duuid-D22287B722879EDB.device                                                                loaded active plugged   dev-disk-by\x2duuid-D2228[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-000d3a12\x2dd315\x2d000d\x2d3a12\x2dd315000d3a12-net-eth0.device loaded active plugged   /sys/devic[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-e7a6a343\x2d06ce\x2d4bc2\x2d90ae\x2dd70799d02e77-pci06ce:00-06ce:00:02.0-net-enP1742s1.device loade[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:0-block-sda-sda1.device lo[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:0-block-sda-sda14.device l[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:0-block-sda-sda15.device l[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:0-block-sda-sda2.device lo[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:0-block-sda.device loaded [m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:1-block-sdb-sdb1.device lo[m[7m>[27m
+sys-devices-LNXSYSTM:00-LNXSYBUS:00-ACPI0004:00-VMBUS:00-f8b3781a\x2d1e82\x2d4818\x2da1c3\x2d63d806ec15bb-host0-target0:0:0-0:0:0:1-block-sdb.device loaded [m[7m>[27m
+sys-devices-platform-serial8250-tty-ttyS2.device                                                           loaded active plugged   /sys/devices/platform/ser[m[7m>[27m
+sys-devices-platform-serial8250-tty-ttyS3.device                                                           loaded active plugged   /sys/devices/platform/ser[m[7m>[27m
+sys-devices-pnp0-00:00-tty-ttyS0.device                                                                    loaded active plugged   /sys/devices/pnp0/00:00/t[m[7m>[27m
+sys-devices-pnp0-00:01-tty-ttyS1.device                                                                    loaded active plugged   /sys/devices/pnp0/00:01/t[m[7m>[27m
+sys-devices-virtual-block-dm\x2d0.device                                                                   loaded active plugged   /sys/devices/virtual/bloc[m[7m>[27m
+sys-devices-virtual-block-dm\x2d1.device                                                                   loaded active plugged   /sys/devices/virtual/bloc[m[7m>[27m
+sys-devices-virtual-block-dm\x2d2.device                                                                   loaded active plugged   /sys/devices/virtual/bloc[m[7m>[27m
+sys-devices-virtual-block-dm\x2d3.device                                                                   loaded active plugged   /sys/devices/virtual/bloc[m[7m>[27m
+sys-devices-virtual-block-dm\x2d4.device                                                                   loaded active plugged   /sys/devices/virtual/bloc[m[7m>[27m
+sys-devices-virtual-misc-vmbus\x21hv_kvp.device                                                            loaded active plugged   /sys/devices/virtual/misc[m[7m>[27m
+sys-module-configfs.device                                                                                 loaded active plugged   /sys/module/configfs     [m
+sys-subsystem-net-devices-enP1742s1.device                                                                 loaded active plugged   MT27710 Family [ConnectX-[m[7m>[27m
+[0;4msys-subsystem-net-devices-eth0.device                                                                      loaded active plugged   /sys/subsystem/net/device[m[7m>[27m
+-.mount                                                                                                    loaded active mounted   Root Mount               [m
+boot-efi.mount                                                                                             loaded active mounted   /boot/efi                [m
+boot.mount                                                                                                 loaded active mounted   /boot                    [m
+dev-hugepages.mount                                                                                        loaded active mounted   Huge Pages File System   [m
+dev-mqueue.mount                                                                                           loaded active mounted   POSIX Message Queue File [m[7m>[27m
+home.mount                                                                                                 loaded active mounted   /home                    [m
+mnt.mount                                                                                                  loaded active mounted   /mnt                     [m
+run-user-1000.mount                                                                                        loaded active mounted   /run/user/1000           [m
+sys-kernel-config.mount                                                                                    loaded active mounted   Kernel Configuration File[m[7m>[27m
+sys-kernel-debug.mount                                                                                     loaded active mounted   Kernel Debug File System [m
+tmp.mount                                                                                                  loaded active mounted   /tmp                     [m
+usr.mount                                                                                                  loaded active mounted   /usr                     [m
+[0;4mvar.mount                                                                                                  loaded active mounted   /var                     [0m[m
+systemd-ask-password-console.path                                                                          loaded active waiting   Dispatch Password Request[m[7m>[27m
+[0;4msystemd-ask-password-wall.path                                                                             loaded active waiting   Forward Password Requests[m[7m>[27m
+init.scope                                                                                                 loaded active running   System and Service Manager[m
+[0;4msession-1.scope                                                                                            loaded active running   Session 1 of user azurech[m[7m>[27m
+atd.service                                                                                                loaded active running   Job spooling tools       [m
+auditd.service                                                                                             loaded active running   Security Auditing Service[m
+chronyd.service                                                                                            loaded active running   NTP client/server        [m
+[7mlines 1-46[27m[K[Kcloud-config.service                                                                                       loaded active exited    Apply the settings specif[m[7m>[27m
+[7mlines 2-47[27m[K[Kcloud-final.service                                                                                        loaded active exited    Execute cloud user/final [m[7m>[27m
+[7mlines 3-48[27m[K[Kcloud-init-local.service                                                                                   loaded active exited    Initial cloud-init job (p[m[7m>[27m
+[7mlines 4-49[27m[K[Kcloud-init.service                                                                                         loaded active exited    Initial cloud-init job (m[m[7m>[27m
+[7mlines 5-50[27m[K[Kcrond.service                                                                                              loaded active running   Command Scheduler        [m
+[7mlines 6-51[27m[K[Kdbus.service                                                                                               loaded active running   D-Bus System Message Bus [m
+[7mlines 7-52[27m[K[Kdracut-shutdown.service                                                                                    loaded active exited    Restore /run/initramfs on[m[7m>[27m
+[7mlines 8-53[27m[K[Kfirewalld.service                                                                                          loaded active running   firewalld - dynamic firew[m[7m>[27m
+[7mlines 9-54[27m[K[Kgetty@tty1.service                                                                                         loaded active running   Getty on tty1            [m
+[7mlines 10-55[27m[K[Khypervkvpd.service                                                                                         loaded active running   Hyper-V KVP daemon       [m
+[7mlines 11-56[27m[K[Kimport-state.service                                                                                       loaded active exited    Import network configurat[m[7m>[27m
+[7mlines 12-57[27m[K[Kirqbalance.service                                                                                         loaded active running   irqbalance daemon        [m
+kdump.service                                                                                              loaded active exited    Crash recovery kernel arm[m[7m>[27m
+kmod-static-nodes.service                                                                                  loaded active exited    Create list of required s[m[7m>[27m
+libstoragemgmt.service                                                                                     loaded active running   libstoragemgmt plug-in se[m[7m>[27m
+lvm2-monitor.service                                                                                       loaded active exited    Monitoring of LVM2 mirror[m[7m>[27m
+lvm2-pvscan@8:2.service                                                                                    loaded active exited    LVM event activation on d[m[7m>[27m
+mcelog.service                                                                                             loaded active running   Machine Check Exception L[m[7m>[27m
+NetworkManager-wait-online.service                                                                         loaded active exited    Network Manager Wait Onli[m[7m>[27m
+NetworkManager.service                                                                                     loaded active running   Network Manager          [m
+nftables.service                                                                                           loaded active exited    Netfilter Tables         [m
+nis-domainname.service                                                                                     loaded active exited    Read and set NIS domainna[m[7m>[27m
+polkit.service                                                                                             loaded active running   Authorization Manager    [m
+rhsmcertd.service                                                                                          loaded active running   Enable periodic update of[m[7m>[27m
+rngd-wake-threshold.service                                                                                loaded active exited    Hardware RNG Entropy Gath[m[7m>[27m
+rngd.service                                                                                               loaded active running   Hardware RNG Entropy Gath[m[7m>[27m
+rsyslog.service                                                                                            loaded active running   System Logging Service   [m
+serial-getty@ttyS0.service                                                                                 loaded active running   Serial Getty on ttyS0    [m
+smartd.service                                                                                             loaded active running   Self Monitoring and Repor[m[7m>[27m
+sshd.service                                                                                               loaded active running   OpenSSH server daemon    [m
+sssd.service                                                                                               loaded active running   System Security Services [m[7m>[27m
+systemd-fsck@dev-disk-by\x2duuid-B781\x2dF51F.service                                                      loaded active exited    File System Check on /dev[m[7m>[27m
+systemd-journal-flush.service                                                                              loaded active exited    Flush Journal to Persiste[m[7m>[27m
+systemd-journald.service                                                                                   loaded active running   Journal Service          [m
+systemd-logind.service                                                                                     loaded active running   Login Service            [m
+systemd-random-seed.service                                                                                loaded active exited    Load/Save Random Seed    [m
+systemd-remount-fs.service                                                                                 loaded active exited    Remount Root and Kernel F[m[7m>[27m
+systemd-resolved.service                                                                                   loaded active running   Network Name Resolution  [m
+systemd-sysctl.service                                                                                     loaded active exited    Apply Kernel Variables   [m
+systemd-tmpfiles-setup-dev.service                                                                         loaded active exited    Create Static Device Node[m[7m>[27m
+systemd-tmpfiles-setup.service                                                                             loaded active exited    Create Volatile Files and[m[7m>[27m
+systemd-udev-trigger.service                                                                               loaded active exited    udev Coldplug all Devices[m
+systemd-udevd.service                                                                                      loaded active running   udev Kernel Device Manager[m
+systemd-update-utmp.service                                                                                loaded active exited    Update UTMP about System [m[7m>[27m
+systemd-user-sessions.service                                                                              loaded active exited    Permit User Sessions     [m
+tuned.service                                                                                              loaded active running   Dynamic System Tuning Dae[m[7m>[27m
+user-runtime-dir@1000.service                                                                              loaded active exited    /run/user/1000 mount wrap[m[7m>[27m
+user@1000.service                                                                                          loaded active running   User Manager for UID 1000[m
+vdo.service                                                                                                loaded active exited    VDO volume services      [m
+[0;4mwaagent.service                                                                                            loaded active running   Azure Linux Agent        [0m[m
+-.slice                                                                                                    loaded active active    Root Slice               [m
+azure.slice                                                                                                loaded active active    Slice for Azure VM Agent [m[7m>[27m
+system-getty.slice                                                                                         loaded active active    system-getty.slice       [m
+system-lvm2\x2dpvscan.slice                                                                                loaded active active    system-lvm2\x2dpvscan.sli[m[7m>[27m
+system-serial\x2dgetty.slice                                                                               loaded active active    system-serial\x2dgetty.sl[m[7m>[27m
+system-sshd\x2dkeygen.slice                                                                                loaded active active    system-sshd\x2dkeygen.sli[m[7m>[27m
+system-systemd\x2dfsck.slice                                                                               loaded active active    system-systemd\x2dfsck.sl[m[7m>[27m
+[7mlines 58-103[27m[K[Ksystem-user\x2druntime\x2ddir.slice                                                                        loaded active active    system-user\x2druntime\x2[m[7m>[27m
+system.slice                                                                                               loaded active active    System Slice             [m
+user-1000.slice                                                                                            loaded active active    User Slice of UID 1000   [m
+[0;4muser.slice                                                                                                 loaded active active    User and Session Slice   [0m[m
+dbus.socket                                                                                                loaded active running   D-Bus System Message Bus [m[7m>[27m
+dm-event.socket                                                                                            loaded active listening Device-mapper event daemo[m[7m>[27m
+lvm2-lvmpolld.socket                                                                                       loaded active listening LVM2 poll daemon socket  [m
+sssd-kcm.socket                                                                                            loaded active listening SSSD Kerberos Cache Manag[m[7m>[27m
+systemd-coredump.socket                                                                                    loaded active listening Process Core Dump Socket [m
+systemd-initctl.socket                                                                                     loaded active listening initctl Compatibility Nam[m[7m>[27m
+systemd-journald-dev-log.socket                                                                            loaded active running   Journal Socket (/dev/log)[m
+systemd-journald.socket                                                                                    loaded active running   Journal Socket           [m
+systemd-udevd-control.socket                                                                               loaded active running   udev Control Socket      [m
+[0;4msystemd-udevd-kernel.socket                                                                                loaded active running   udev Kernel Socket       [0m[m
+basic.target                                                                                               loaded active active    Basic System             [m
+cloud-config.target                                                                                        loaded active active    Cloud-config availability[m
+cloud-init.target                                                                                          loaded active active    Cloud-init target        [m
+cryptsetup.target                                                                                          loaded active active    Local Encrypted Volumes  [m
+getty.target                                                                                               loaded active active    Login Prompts            [m
+local-fs-pre.target                                                                                        loaded active active    Local File Systems (Pre) [m
+local-fs.target                                                                                            loaded active active    Local File Systems       [m
+multi-user.target                                                                                          loaded active active    Multi-User System        [m
+network-online.target                                                                                      loaded active active    Network is Online        [m
+network-pre.target                                                                                         loaded active active    Network (Pre)            [m
+network.target                                                                                             loaded active active    Network                  [m
+nss-lookup.target                                                                                          loaded active active    Host and Network Name Loo[m[7m>[27m
+nss-user-lookup.target                                                                                     loaded active active    User and Group Name Looku[m[7m>[27m
+paths.target                                                                                               loaded active active    Paths                    [m
+remote-fs.target                                                                                           loaded active active    Remote File Systems      [m
+slices.target                                                                                              loaded active active    Slices                   [m
+sockets.target                                                                                             loaded active active    Sockets                  [m
+sshd-keygen.target                                                                                         loaded active active    sshd-keygen.target       [m
+swap.target                                                                                                loaded active active    Swap                     [m
+sysinit.target                                                                                             loaded active active    System Initialization    [m
+[0;4mtimers.target                                                                                              loaded active active    Timers                   [0m[m
+dnf-makecache.timer                                                                                        loaded active waiting   dnf makecache --timer    [m
+systemd-tmpfiles-clean.timer                                                                               loaded active waiting   Daily Cleanup of Temporar[m[7m>[27m
+unbound-anchor.timer                                                                                       loaded active waiting   daily update of the root [m[7m>[27m
+[m
+LOAD   = Reflects whether the unit definition was properly loaded.[m
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.[m
+SUB    = The low-level unit activation state, values depend on unit type.[m
+[m
+[0;1;39m140 loaded units listed.[0m Pass --all to see loaded but inactive units, too.[m
+To show all installed unit files use 'systemctl list-unit-files'.[m
+[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[K[7mlines 103-148/148 (END)[27m[K[K[?1l>
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ sudo systemctl suspend
+]0;azurechenx6@AzureLinux01:~[azurechenx6@AzureLinux01 ~]$ 
